@@ -1,0 +1,22 @@
+#btnPlay {
+	margin-top: 120px;
+}
+
+.mainBtn {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  line-height: 30%;
+  padding: 20px;
+  width: 250px;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 20px;
+}

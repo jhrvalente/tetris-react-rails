@@ -1,0 +1,41 @@
+#nextDiv{
+	background-color: LightGray;
+	width: 150px;
+	height: 175px;
+	border: 1px solid black;
+}
+
+#nextHeader{
+	background-color: #0080ff;
+	width: 150px;
+	height: 25px;
+	border-bottom: 1px solid black;
+	position: relative;
+	top: -20px;
+}
+
+#pnextHeader{
+	/*color: DarkBlue;*/
+	font-family: 'Sans-Serif';
+	font-size: 20px;
+	text-align: center;
+	/*position: relative;
+	top:-20px;*/
+}
+
+
+#nextDisplay{
+	background-color: black;
+	width: 120px;
+	height: 120px;
+	margin-left: 15px;
+	margin-top: -5px;
+	
+
+}
+
+#nextDefault {
+	position: absolute;
+	margin-top: -140px;
+	margin-left: -60px;
+}

@@ -1,0 +1,34 @@
+#scoreDiv{
+	background-color: LightGray;
+	width: 150px;
+	height: 65px;
+	border: 1px solid black;
+	position: relative;
+	top: 5px;
+}
+
+#scoreHeader{
+	background-color: #0080ff;
+	width: 150px;
+	height: 25px;
+	border-bottom: 1px solid black;
+	position: relative;
+	top: -20px;
+}
+
+#pscoreHeader{
+	/*color: DarkBlue;*/
+	font-family: 'Sans-Serif';
+	font-size: 20px;
+	text-align: center;
+	/*position: relative;
+	top:-20px;*/
+}
+
+
+#scoreDisplay{
+	font-family: 'Sans-Serif';
+	font-size: 20px;
+	text-align: center;
+	line-height: 5px;
+}

@@ -1,0 +1,58 @@
+.tt0-a {
+	position: relative;
+	left: 259px;
+	top: 214px;
+}
+
+.tt0-b {
+	position: relative;
+	left: 231px;
+	top: 183px;
+}
+
+.tt0-c {
+	position: relative;
+	left: 203px;
+	top: 152px;
+}
+
+.tt0-d {
+	position: relative;
+	left: 175px;
+	top: 121px;
+}
+
+.rect {
+	width: 25px;
+	height: 25px;
+	border: 3px solid black;
+	
+}
+
+.cyan {
+	background-color: cyan;
+}
+
+.tt8-a {
+	position: relative;
+	left: 147px;
+	top: 214px;
+}
+
+.tt8-b {
+	position: relative;
+	left: 147px;
+	top: 155px;
+}
+
+.tt8-c {
+	position: relative;
+	left: 147px;
+	top: 96px;
+}
+
+.tt8-d {
+	position: relative;
+	left: 147px;
+	top: 37px;
+}

@@ -1,0 +1,73 @@
+.vertical-nav {
+  min-width: 17rem;
+  width: 17rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+}
+
+/* for toggle behavior */
+
+#sidebar.active {
+  margin-left: -17rem;
+}
+
+
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -17rem;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+  #content {
+    width: 100%;
+    margin: 0;
+  }
+  #content.active {
+    margin-left: 17rem;
+    width: calc(100% - 17rem);
+  }
+}
+
+.user-name {
+  position:relative;
+  left: -10px;
+  top: 10px;
+}
+
+.user-desc {
+  position:relative;
+  left: 15px;
+  top: -5px;
+}
+
+#link-logout {
+  position:relative;
+  left: 25px;
+}
+
+#link-games {
+  position:relative;
+  left: 15px;
+}
+
+#imgbadge {
+  position:relative;
+  top: 15px;
+  left: 5px;
+  float: left;
+}
+
+#link-highscores {
+  position:relative;
+  left: 20px;
+}
+
+#link-stats {
+  position:relative;
+  left: 20px;
+}
